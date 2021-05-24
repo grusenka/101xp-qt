@@ -1,0 +1,43 @@
+.character-button {
+  width: 140px;
+  height: 139px;
+  padding: 0;
+  font-size: 0;
+  border: none;
+
+  &_icon_isolda {
+    background: url("../../assets/CharacterButton_Icon_Isolda.png");
+  }
+
+  &_icon_isolda:hover {
+    background: url("../../assets/CharacterButton_Icon_IsoldaHover.png");
+  }
+
+  &_icon_isolda.active {
+    background: url("../../assets/CharacterButton_Icon_IsoldaActive.png");
+  }
+
+  &_icon_lleyn {
+    background: url("../../assets/CharacterButton_Icon_Lleyn.png");
+  }
+
+  &_icon_lleyn:hover {
+    background: url("../../assets/CharacterButton_Icon_LleynHover.png");
+  }
+
+  &_icon_lleyn.active {
+    background: url("../../assets/CharacterButton_Icon_LleynActive.png");
+  }
+
+  &_icon_pamela {
+    background: url("../../assets/CharacterButton_Icon_Pamela.png");
+  }
+
+  &_icon_pamela:hover {
+    background: url("../../assets/CharacterButton_Icon_PamelaHover.png");
+  }
+
+  &_icon_pamela.active {
+    background: url("../../assets/CharacterButton_Icon_PamelaActive.png");
+  }
+}

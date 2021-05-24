@@ -1,0 +1,34 @@
+.section-character {
+  width: 100%;
+  height: 949px;
+
+  &_isolda {
+    background: url("../../assets/SectionCharacter_Isolda.jpg");
+  }
+
+  &_pamela {
+    background: url("../../assets/SectionCharacter_Pamela.jpg");
+  }
+
+  &_lleyn {
+    background: url("../../assets/SectionCharacter_Lleyn.jpg");
+  }
+
+  &__title {
+    width: 819px;
+    height: 148px;
+    margin: auto;
+    padding-top: 17px;
+    font-size: 0;
+    background-image: url("../../assets/SectionCharacter__Title.png");
+  }
+
+  &__text {
+    margin: 70px 0 0;
+    font-size: 30px;
+    color: #ffffff;
+
+    text-align: center;
+
+  }
+}
