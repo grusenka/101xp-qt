@@ -1,7 +1,7 @@
 <template>
-    <Section class="section section-actions" hasFooter="true">
+    <Section class="section section-actions">
         <template v-slot:header>
-            <h2 class="section-actions__title">
+            <h2 class="section-actions__title" id="actions-section">
                 Многочисленные PVP- и PVE-события
             </h2>
         </template>
@@ -31,17 +31,25 @@
                 эксклюзивные наргады и&nbsp;доструп к&nbsp;магазинам для избранных!
             </p>
         </div>
+
+        <footer class="section-character__footer">
+            <action-link href="#mount-section">
+                Далее
+            </action-link>
+        </footer>
     </Section>
 
 </template>
 
 <script>
 import Section from '../Section/Section.vue';
+import ActionLink from '../ActionLink/ActionLink.vue';
 
 export default {
   name: 'section-actions',
   components: {
     Section,
+    ActionLink,
   },
   data() {
     return {

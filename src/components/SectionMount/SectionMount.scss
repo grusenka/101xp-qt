@@ -1,4 +1,5 @@
 .section-mount {
+  position: relative;
   width: 100%;
   height: 933px;
   background: url("../../assets/SectionMount.jpg") center no-repeat;
@@ -15,8 +16,15 @@
   &__text {
     margin: 43px 0 0;
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 36px;
     color: #ffffff;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

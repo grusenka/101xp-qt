@@ -1,7 +1,7 @@
 <template>
 <Section class="section section-footer">
     <template v-slot:header>
-        <h2 class="section-footer__title">
+        <h2 class="section-footer__title" id="footer-section">
             Этот мир на грани разрушения. Но мы будем сражаться за него!
         </h2>
     </template>

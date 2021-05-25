@@ -1,10 +1,10 @@
 <template>
-    <button class="action-button"><slot /></button>
+<button class="action-button"><slot /></button>
 </template>
 
 <script>
 export default {
-  name: 'action-button',
+  name: 'action-link',
 };
 </script>
 

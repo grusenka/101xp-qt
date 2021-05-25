@@ -4,6 +4,14 @@
   padding: 0;
   font-size: 0;
   border: none;
-  background: url("../../assets/PlayButton.png");
+  background: url("../../assets/PlayButton.png") center no-repeat;
   cursor: pointer;
+
+  &:hover {
+    background-image: url("../../assets/PlayButtonHover.png");
+  }
+
+  &:active {
+    background-image: url("../../assets/PlayButtonActive.png");
+  }
 }
