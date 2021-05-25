@@ -12,4 +12,22 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  &_icon_previous {
+    width: 102px;
+    height: 66px;
+    background-image: url("../../assets/ActionButton_Icon_NextSection.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+  }
+
+  &_icon_next {
+    width: 102px;
+    height: 66px;
+    background-image: url("../../assets/ActionButton_Icon_NextSection.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+  }
 }
