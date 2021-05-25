@@ -1,0 +1,34 @@
+.character-mount-list {
+  display: flex;
+  list-style-type: none;
+  margin: 445px 0 0 292px;
+  padding: 0;
+
+  &__item:not(:first-child) {
+    margin-left: 267px;
+  }
+
+  &__item .character-mount-list__rating {
+    font-size: 0;
+    margin: 0;
+  }
+
+  &__item:first-child .character-mount-list__rating {
+    width: 520px;
+    height: 124px;
+    background: url("../../assets/CharacterMountList__Rating1.png");
+  }
+
+  &__item:last-child .character-mount-list__rating {
+    width: 532px;
+    height: 124px;
+    background: url("../../assets/CharacterMountList__Rating2.png");
+  }
+
+  &__level {
+    color: #f2c314;
+    font-size: 27px;
+    margin: -33px 0 0 203px;
+
+  }
+}
