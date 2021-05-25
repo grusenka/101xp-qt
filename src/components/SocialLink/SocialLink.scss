@@ -1,0 +1,56 @@
+.social-link {
+  display: inline-block;
+  width: 83px;
+  height: 91px;
+  font-size: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &_facebook {
+    background-image: url("../../assets/SocialLink_Facebook.png");
+  }
+
+  &_facebook:hover {
+    background-image: url("../../assets/SocialLink_FacebookHover.png");
+  }
+
+  &_facebook:active {
+    background-image: url("../../assets/SocialLink_FacebookActive.png");
+  }
+
+  &_vk {
+    background-image: url("../../assets/SocialLink_Vk.png");
+  }
+
+  &_vk:hover {
+    background-image: url("../../assets/SocialLink_VkHover.png");
+  }
+
+  &_vk:active {
+    background-image: url("../../assets/SocialLink_VkActive.png");
+  }
+
+  &_ok {
+    background-image: url("../../assets/SocialLink_Ok.png");
+  }
+
+  &_ok:hover {
+    background-image: url("../../assets/SocialLink_OkHover.png");
+  }
+
+  &_ok:active {
+    background-image: url("../../assets/SocialLink_OkActive.png");
+  }
+
+  &_mail {
+    background-image: url("../../assets/SocialLink_Mail.png");
+  }
+
+  &_mail:hover {
+    background-image: url("../../assets/SocialLink_MailHover.png");
+  }
+
+  &_mail:active {
+    background-image: url("../../assets/SocialLink_MailActive.png");
+  }
+}
