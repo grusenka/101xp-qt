@@ -1,0 +1,43 @@
+.section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 966px;
+  background-image: url("../../assets/SectionMain.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__logo {
+    width: 652px;
+    height: 333px;
+    font-size: 0;
+    margin-left: 88px;
+    background-image: url("../../assets/SectionMain__Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__title {
+    width: 829px;
+    height: 230px;
+    margin: -23px auto 0;
+    font-size: 0;
+    background-image: url("../../assets/SectionMain__Title.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__button {
+    display: block;
+    margin: -27px 0 0 151px;
+  }
+
+  &__text {
+    margin: 0;
+    text-align: center;
+    font-size: 27px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+}
