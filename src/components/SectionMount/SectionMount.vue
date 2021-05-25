@@ -1,7 +1,7 @@
 <template>
-<Section class="section section-mount" hasFooter="true">
+<Section class="section section-mount">
     <template v-slot:header>
-        <h2 class="section-mount__title">
+        <h2 class="section-mount__title" id="mount-section">
             Многогранная прокачка
         </h2>
     </template>
@@ -27,16 +27,24 @@
             свою стратегию боя и&nbsp;выбери ключевые умения для победы над врагами!
         </p>
     </div>
+
+    <footer class="section-mount__footer">
+        <action-link href="#footer-section">
+            Далее
+        </action-link>
+    </footer>
 </Section>
 </template>
 
 <script>
 import Section from '../Section/Section.vue';
+import ActionLink from '../ActionLink/ActionLink.vue';
 
 export default {
   name: 'section-mount',
   components: {
     Section,
+    ActionLink,
   },
 };
 </script>

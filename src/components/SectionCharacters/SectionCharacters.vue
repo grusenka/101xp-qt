@@ -4,10 +4,9 @@
         :class="{'section-character_isolda': characterIndex === 0,
         'section-character_pamela': characterIndex === 1,
         'section-character_lleyn': characterIndex === 2}"
-        hasFooter="true"
     >
         <template v-slot:header>
-            <h2 class="section-character__title">
+            <h2 class="section-character__title" id="character-section">
                 Уникальные персонажи и сотни комбо
             </h2>
         </template>
@@ -110,6 +109,12 @@
               настройки боевого отряда. Выбери совю фракцию и&nbsp;получай бонусык мощи!
             </p>
         </div>
+
+        <footer class="section-character__footer">
+            <action-link href="#actions-section">
+                Далее
+            </action-link>
+        </footer>
     </Section>
 </template>
 
@@ -117,6 +122,7 @@
 import Section from '../Section/Section.vue';
 import ActionButton from '../ActionButton/ActionButton.vue';
 import CharacterButton from '../CharacterButton/CharacterButton.vue';
+import ActionLink from '../ActionLink/ActionLink.vue';
 
 export default {
   name: 'section-character',
@@ -124,6 +130,7 @@ export default {
     Section,
     ActionButton,
     CharacterButton,
+    ActionLink,
   },
   data() {
     return {
